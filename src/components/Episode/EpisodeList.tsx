@@ -58,7 +58,7 @@ const EpisodeList: React.FC<EpisodeListProps> = ({ onSelectEpisode }) => {
   };
 
   return (
-    <div className="w-1/4 p-4 ep_section mycalendar" style={{ height: myHeight + 450 }} >
+    <div className="w-1/4 p-4 ep_section mycalendar" style={{ height: myHeight + 430 }} >
       <h2 className="text-xl font-bold mb-4">Episodes</h2>
       <div className='mycalendarr' style={{ height: myHeight + 350 }}>
       <ul>
