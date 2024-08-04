@@ -46,11 +46,11 @@ const EpisodeList: React.FC<EpisodeListProps> = ({ onSelectEpisode }) => {
     axios.get('https://rickandmortyapi.com/api/episode')
       .then(response => {
         setEpisodes(response.data.results);
-        // setSelectedEpisode(response.data.results[0].id); 
+        setSelectedEpisode(response.data.results[0].id); 
         onSelectEpisode(response.data.results[0].id);
       })
       .catch(error => console.error(error));
-  }, [onSelectEpisode]);
+  }, []);
 
   const handleSelectEpisode = (id: number) => {
     setSelectedEpisode(id);
