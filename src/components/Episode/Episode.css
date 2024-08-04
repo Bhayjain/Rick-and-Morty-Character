@@ -1,0 +1,51 @@
+.ep_section{
+    overflow: auto;
+    background-color: #BCAAA4;
+    border-radius: 9px;
+}
+
+
+
+.mycalendar{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+  }
+
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 1px;
+    background-color:#BCAAA4 !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+    background-color:#BCAAA4 !important;
+  }
+  .mycalendar::-webkit-scrollbar-track
+  {
+    border-radius: 1px;
+    background-color:#BCAAA4 !important;
+  }
+
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 1px;
+    background-color:#BCAAA4 !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+   background-color:#BCAAA4 !important;
+  }
+
+ .border_edit{
+    margin-bottom: 10px;
+    border-radius: 5px;
+  } 
+
+  .my_hover:hover{
+    background-color: #8b6051;
+    color: aliceblue !important;
+  }

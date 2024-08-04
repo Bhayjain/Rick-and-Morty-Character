@@ -1,0 +1,44 @@
+
+.mycalendar{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+  }
+
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 1px;
+    background-color:rgb(255, 255, 255) !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb
+  { 
+    border-radius: 1px;
+    background-color:rgb(255, 255, 255) !important;
+  }
+  .mycalendar::-webkit-scrollbar-track
+  {
+    border-radius: 1px;
+    background-color:rgb(255, 255, 255) !important;
+  }
+
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 1px;
+    background-color:rgb(255, 255, 255) !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+   background-color:rgb(255, 255, 255) !important;
+  }
+
+
+
+  .charcater_img{
+    background-color: #FFF3E0;
+  }
+
+  .charcater_img:hover{
+    background-color: #ffeae4;
+  }
